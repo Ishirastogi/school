@@ -1,6 +1,6 @@
 // src/pages/Gallery.js
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
 
 function Gallery() {
   return (
@@ -12,16 +12,62 @@ function Gallery() {
       <section className="container mx-auto py-10">
         <h2 className="text-3xl font-bold">Photos</h2>
         <div className="mt-4 space-y-4">
-          <img src="/path/to/sports_day.jpg" alt="Sports Day" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="/path/to/science_exhibition.jpg" alt="Science Exhibition" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="/path/to/cultural_fest.jpg" alt="Cultural Fest" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="/path/to/classroom.jpg" alt="Classroom" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="/path/to/library.jpg" alt="Library" className="w-full h-auto rounded-lg shadow-md" />
+          <img
+            src="https://www.pmspublicschool.org/images/cultural%20event/gallery2.jpg"
+            alt="Sports Day"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+          />
+          <img
+            src="https://www.pmspublicschool.org/images/cultural%20event/gallery2.jpg"
+            alt="Science Exhibition"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+          />
+          <img
+            src="https://www.pmspublicschool.org/images/cultural%20event/gallery2.jpg"
+            alt="Cultural Fest"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+          />
+          <img
+            src="https://www.pmspublicschool.org/images/cultural%20event/gallery2.jpg"
+            alt="Classroom"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+          />
+          <img
+            src="https://www.pmspublicschool.org/images/cultural%20event/gallery2.jpg"
+            alt="Library"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+          />
         </div>
         <h2 className="text-3xl font-bold mt-8">Videos</h2>
         <div className="mt-4 space-y-4">
-          <video src="/path/to/school_tour.mp4" controls className="w-full h-auto rounded-lg shadow-md"></video>
-          <video src="/path/to/annual_function.mp4" controls className="w-full h-auto rounded-lg shadow-md"></video>
+          <iframe
+            title="Video1"
+            width="360"
+            height="215"
+            src="https://www.youtube.com/embed/95Ite9fsrJk"
+            className="rounded-lg shadow-md"
+            allow="autoplay; encrypted-media"
+            allowFullScreen=""
+          ></iframe>
+          <iframe
+            title="Video2"
+            width="360"
+            height="215"
+            className="rounded-lg shadow-md"
+            src="https://www.youtube.com/embed/95Ite9fsrJk"
+            allow="autoplay; encrypted-media"
+            allowFullScreen=""
+          ></iframe>
         </div>
       </section>
     </div>
